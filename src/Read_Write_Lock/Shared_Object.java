@@ -21,7 +21,6 @@ public class Shared_Object {
         try{
             lock.writeLock().lock();
             System.out.println("Consumer Lock is Acquired by "+ Thread.currentThread().getName());
-            Thread.sleep(4000);
         }
         catch(Exception e){
 
